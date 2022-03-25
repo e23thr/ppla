@@ -1,7 +1,8 @@
 module.exports = {
+  pathPrefix: "/ppla/",
   siteMetadata: {
-    title: ``,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Pla Saengduen's tools`,
+    siteUrl: `https://e23thr.github.io/ppla/`,
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
