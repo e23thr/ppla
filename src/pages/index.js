@@ -49,6 +49,7 @@ const IndexPage = () => {
         {
           items.map((item, idx) => (
             <div key={idx} className="card">
+              <h1 className="name">ผู้ส่ง</h1>
               <h1 className="name">{SENDER.name}</h1>
               <h2 className="address">{SENDER.address}</h2>
               {SENDER.footer && (
@@ -58,6 +59,7 @@ const IndexPage = () => {
                 </div>
               )}
               <div className="space">&nbsp;</div>
+              <h1 className="name">ผู้รับ</h1>
               <h1 className="name">{item.name}</h1>
               <h2 className="address">{item.address}</h2>
               <div className="space">&nbsp;</div>

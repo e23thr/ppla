@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/ppla/",
+  pathPrefix: "/ppla",
   siteMetadata: {
     title: `Pla Saengduen's tools`,
     siteUrl: `https://e23thr.github.io/ppla/`,

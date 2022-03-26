@@ -6,11 +6,12 @@ body {
 }
 
 .print-page {
-  max-width: 5.5cm;
-  font-size: 4mm;
+  max-width: 11cm;
+  font-size: 8mm;
 
   .card {
     margin-bottom: 1.5cm;
+    border-bottom: 1px dashed black;
     &:last-child {
       margin-bottom: 0;
     }
@@ -21,17 +22,18 @@ body {
   }
 
   .name {
-    font-size: 4mm;
+    font-size: 8mm;
     font-weight: bold;
   }
 
   .address {
-    font-size: 3.5mm;
+    font-size: 7mm;
     font-weight: bold;
   }
 
   .footer {
-    font-size: 3mm;
+    font-size: 6mm;
     font-weight: bold;
+    padding-bottom: 1cm;
   }
 }
