@@ -1,7 +1,7 @@
 const axios = require('axios');
+const apiData = require('../data/api.json');
 
-
-let API_URL = '';
+let API_URL = apiData.appScriptUrl;
 
 const serialize = function (obj) {
   var str = [];
