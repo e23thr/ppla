@@ -60,7 +60,7 @@ const FormPage = () => {
   return (
     <div>
       <div className="d-flex justify-content-center my-3">
-        <a href="../" className="btn btn-primary">รายการทั้งหมด</a>
+        <a href="../listing" className="btn btn-primary">รายการทั้งหมด</a>
       </div>
       <div className="print-page">
         <div>

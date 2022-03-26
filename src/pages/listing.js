@@ -52,10 +52,18 @@ const IndexPage = () => {
   return (
     <main>
       <title>Form</title>
+      <div className="no-print d-flex justify-content-center my-3">
+        <a className="btn btn-primary" href="../form">กรอกฟอร์ม</a>
+      </div>
+      {items.length > 0 && (
+        <div className="no-print d-flex justify-content-center">
+          <button className="btn btn-danger" onClick={deleteAllItems}>ลบรายการทั้งหมด</button>
+        </div>
+      )}
       <div className="print-page">
         {
           items.map((item, idx) => (
-            <AddressCard sender={SENDER} recipient={item} key={idx} />
+            <AddressCard sender={SENDER} recipient={item} key={idx} onDelete={onDelete} />
           ))
         }
       </div>
