@@ -4,51 +4,29 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Paperang print web page
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Create Google App Script with Sheets Service**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+2.  Use apps-script/Code.gs in google apps script
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+3.  Deploy Apps Script as Web App with accessible by anyone
 
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+4.  Install npm modules
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    npm install
     ```
+5.  Setup github pages using branch "gh-pages" as source branch
 
-3.  **Open the code and start customizing!**
+    ```shell
+    npm run deploy
+    ````
 
-    Your site is now running at http://localhost:8000!
+**NOTE**
+This project deploy github pages as sub-directory to your main github page
 
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+[☕ Buy me a coffee ☕](https://buymeacoffee.com/e23thr)
