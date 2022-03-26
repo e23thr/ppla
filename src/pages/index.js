@@ -42,13 +42,6 @@ const IndexPage = () => {
     getAllItems(0);
   }, []);
 
-  const onDelete = (id) => {
-    deleteItem(id).then(() => {
-      setItems([]);
-      getAllItems(0);
-    });
-  };
-
   return (
     <main>
       <title>Form</title>

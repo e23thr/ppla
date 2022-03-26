@@ -16,6 +16,10 @@ const AddressCard = ({ sender, recipient, onDelete = null }) => {
           </div>
         )}
         <div className="space">&nbsp;</div>
+        <div className="space">&nbsp;</div>
+        <div className="space">&nbsp;</div>
+        <div className="space">&nbsp;</div>
+        <div className="space">&nbsp;</div>
         <div className="name">ผู้รับ</div>
         <div className="name">{recipient.name}</div>
         <div className="address">{recipient.address.split("\n").map((d, idx) => <div className="text-justify" key={`addr-${idx}`}>{d}</div>)}</div>
